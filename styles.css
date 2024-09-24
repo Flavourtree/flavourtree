@@ -1,0 +1,77 @@
+.flavor-category {
+  margin: 10px;
+  padding: 30px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+  color: white;
+  font-family: Poppins, sans-serif;
+}
+
+.flavor-category.main-category {
+  font-size: 1.5em;
+  font-weight: bold;
+  font-family: Poppins, sans-serif;
+}
+
+.flavor-category .category-name {
+  font-size: 1.2em;
+  font-weight: bold;
+  font-family: Poppins, sans-serif;
+}
+
+.subcategory-container {
+  margin-left: 0px;
+}
+
+.flavor-item {
+  margin: 5px;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  font-family: Poppins, sans-serif;
+}
+
+/* New CSS for search functionality */
+#search-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+#search-bar {
+  width: calc(100% - 20px);
+  max-width: 600px;
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  font-family: Poppins, sans-serif;
+}
+
+#flavor-wheel-container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+/* End of new CSS */
+.search-highlight {
+  box-shadow: 0 0 10px rgba(255, 255, 0, 0.5);
+  z-index: 1;
+  position: relative;
+}
+
+#footer-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.footer-logo {
+  width: 30px;
+  height: 30px;
+  margin: 0 10px;
+  cursor: pointer;
+}
